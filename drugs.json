@@ -1,0 +1,212 @@
+[
+    {
+        "drug_1": "Digoxin",
+        "drug_2": "Furosemide",
+        "severity": "Major",
+        "effect": "Low potassium",
+        "suggestions": "Monitor potassium levels regularly."
+    },
+    {
+        "drug_1": "Metoprolol",
+        "drug_2": "Insulin",
+        "severity": "Moderate",
+        "effect": "Beta blockers mask symptoms of low blood sugar.",
+        "suggestions": "Check blood sugar more frequently."
+    },
+    {
+        "drug_1": "Doxycycline",
+        "drug_2": "Milk",
+        "severity": "Minor",
+        "effect": "Calcium in milk reduces antibiotic absorption.",
+        "suggestions": "Take doxycycline 1 hour before or 2 hours after milk."
+    },
+    {
+        "drug_1": "Ciprofloxacin",
+        "drug_2": "Antacids",
+        "severity": "Moderate",
+        "effect": "Antacids reduce ciprofloxacin absorption.",
+        "suggestions": "Keep at least 2-hour gap."
+    },
+    {
+        "drug_1": "Aspirin",
+        "drug_2": "SSRIs",
+        "severity": "Moderate",
+        "effect": "Increased stomach bleeding risk.",
+        "suggestions": "Use stomach-protective medication if needed."
+    },
+    {
+        "drug_1": "Levothyroxine",
+        "drug_2": "Food",
+        "severity": "Minor",
+        "effect": "Food reduces absorption, lowering thyroid levels.",
+        "suggestions": "Take on empty stomach in the morning."
+    },
+    {
+        "drug_1": "ACE inhibitors",
+        "drug_2": "Spironolactone",
+        "severity": "Major",
+        "effect": "High potassium levels.",
+        "suggestions": "Regular blood tests to monitor potassium."
+    },
+    {
+        "drug_1": "Insulin",
+        "drug_2": "Steroids",
+        "severity": "Major",
+        "effect": "Steroids increase blood sugar levels.",
+        "suggestions": "Diabetes medicines may need dose adjustment."
+    },
+    {
+        "drug_1": "Antihistamines",
+        "drug_2": "Alcohol",
+        "severity": "Moderate",
+        "effect": "Increased sleepiness and slower reaction.",
+        "suggestions": "Avoid alcohol while taking antihistamines."
+    },
+    {
+        "drug_1": "Sodium Valproate",
+        "drug_2": "Lamotrigine",
+        "severity": "Major",
+        "effect": "Increased risk of severe skin reactions.",
+        "suggestions": "Doctor may start lamotrigine at a lower dose."
+    },
+    {
+        "drug_1": "Warfarin",
+        "drug_2": "Aspirin",
+        "severity": "Major",
+        "effect": "Increased bleeding risk.",
+        "suggestions": "Avoid combination unless prescribed with close monitoring."
+    },
+    {
+        "drug_1": "Ibuprofen",
+        "drug_2": "Prednisolone",
+        "severity": "Moderate",
+        "effect": "Higher chance of stomach irritation or ulcers.",
+        "suggestions": "Take with food; doctor may recommend a stomach-protective medicine."
+    },
+    {
+        "drug_1": "Paracetamol",
+        "drug_2": "Rifampicin",
+        "severity": "Moderate",
+        "effect": "Liver stress increases; paracetamol works less effectively.",
+        "suggestions": "Limit paracetamol dose; consult doctor if taking long-term."
+    },
+    {
+        "drug_1": "Metformin",
+        "drug_2": "Alcohol",
+        "severity": "Moderate",
+        "effect": "Can increase risk of low blood sugar or lactic acidosis.",
+        "suggestions": "Avoid heavy alcohol use while on metformin."
+    },
+    {
+        "drug_1": "Amoxicillin",
+        "drug_2": "Oral contraceptive pills",
+        "severity": "Moderate",
+        "effect": "Antibiotics may reduce pill effectiveness.",
+        "suggestions": "Use backup contraception during antibiotic course."
+    },
+    {
+        "drug_1": "Cetirizine",
+        "drug_2": "Zolpidem",
+        "severity": "Major",
+        "effect": "Excessive drowsiness, slowed breathing.",
+        "suggestions": "Avoid taking together unless guided by a doctor."
+    },
+    {
+        "drug_1": "Tramadol",
+        "drug_2": "Sertraline",
+        "severity": "Major",
+        "effect": "Risk of serotonin syndrome (agitation, sweating, fast heart rate).",
+        "suggestions": "Use alternative painkiller if possible."
+    },
+    {
+        "drug_1": "Iron tablets",
+        "drug_2": "Calcium tablets",
+        "severity": "Minor",
+        "effect": "Calcium reduces iron absorption.",
+        "suggestions": "Take them 2 hours apart."
+    },
+    {
+        "drug_1": "Amlodipine",
+        "drug_2": "Simvastatin",
+        "severity": "Moderate",
+        "effect": "Increased muscle pain risk due to high statin levels.",
+        "suggestions": "Doctor may reduce simvastatin dose."
+    },
+    {
+        "drug_1": "Omeprazole",
+        "drug_2": "Clopidogrel",
+        "severity": "Major",
+        "effect": "Reduces clopidogrel effectiveness (blood thinner).",
+        "suggestions": "Use a different acid reducer like pantoprazole."
+    },
+    {
+        "drug_1": "Atorvastatin",
+        "drug_2": "Clarithromycin",
+        "severity": "Major",
+        "effect": "Increased statin levels causing muscle pain or kidney damage.",
+        "suggestions": "Avoid combination; doctor may temporarily stop atorvastatin."
+    },
+    {
+        "drug_1": "Losartan",
+        "drug_2": "Potassium supplements",
+        "severity": "Moderate",
+        "effect": "May cause high potassium levels in the blood.",
+        "suggestions": "Avoid extra potassium unless advised; monitor blood tests."
+    },
+    {
+        "drug_1": "Fluconazole",
+        "drug_2": "Phenytoin",
+        "severity": "Moderate",
+        "effect": "Increases phenytoin levels causing toxicity.",
+        "suggestions": "Monitor phenytoin levels; dose adjustment may be needed."
+    },
+    {
+        "drug_1": "Diazepam",
+        "drug_2": "Opioids",
+        "severity": "Major",
+        "effect": "Excessive sedation, slow breathing.",
+        "suggestions": "Dose adjustment and monitoring may be required."
+    },
+    {
+        "drug_1": "Leflunomide",
+        "drug_2": "Methotrexate",
+        "severity": "Major",
+        "effect": "Increased risk of liver damage.",
+        "suggestions": "Regular liver tests; avoid long-term combined use."
+    },
+    {
+        "drug_1": "Sertraline",
+        "drug_2": "Linezolid",
+        "severity": "Major",
+        "effect": "High risk of serotonin syndrome.",
+        "suggestions": "Stop sertraline before starting linezolid under supervision."
+    },
+    {
+        "drug_1": "Propranolol",
+        "drug_2": "Albuterol",
+        "severity": "Moderate",
+        "effect": "Propranolol blocks the effect of albuterol, reducing asthma relief.",
+        "suggestions": "Switch to a more suitable beta-blocker if needed (e.g., atenolol)."
+    },
+    {
+        "drug_1": "Spironolactone",
+        "drug_2": "Ibuprofen",
+        "severity": "Moderate",
+        "effect": "Decreases kidney function and increases potassium levels.",
+        "suggestions": "Avoid frequent NSAID use; choose paracetamol instead."
+    },
+    {
+        "drug_1": "Levonorgestrel",
+        "drug_2": "Carbamazepine",
+        "severity": "Moderate",
+        "effect": "Carbamazepine reduces effectiveness of emergency contraception.",
+        "suggestions": "Alternative contraception method may be required."
+    },
+    {
+        "drug_1": "Metoclopramide",
+        "drug_2": "Risperidone",
+        "severity": "Major",
+        "effect": "Increased risk of movement disorders (tremors, stiffness).",
+        "suggestions": "Avoid combination; choose alternate anti-nausea medicine."
+    }
+]

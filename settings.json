@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.ignoreFiles": [
+    "**/backend/**",
+    "**/history.json",
+    "**/users.json"
+  ],
+  "liveServer.settings.fullReload": false
+}

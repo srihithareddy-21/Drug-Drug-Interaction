@@ -1,0 +1,23 @@
+[
+  {
+    "name": "abcd",
+    "email": "xyz@gmail.com",
+    "password": "$2b$10$JX3tec0zu9nSIQfB2tx53uBz5mhc2jIatEgepPliVOm/7kqvH5rQm",
+    "createdAt": "2025-11-26T10:47:48.435Z"
+  },
+  {
+    "name": "Siri",
+    "email": "siri@gmail.com",
+    "password": "12345"
+  },
+  {
+    "name": "xyz",
+    "email": "xyz@xyz",
+    "password": "xyz"
+  },
+  {
+    "name": "abc",
+    "email": "abc@abc",
+    "password": "abc"
+  }
+]

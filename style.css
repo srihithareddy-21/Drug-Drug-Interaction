@@ -1,0 +1,337 @@
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary: #335af7;
+    --primary-dark: #2447db;
+    --text-dark: #002244;
+    --text-light: #555;
+    --bg-light: #f6f9ff;
+    --card-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    --radius: 12px;
+    --transition: 0.2s ease;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to bottom, #e7f1ff, #d8f7f1);
+    min-height: 100vh;
+    color: var(--text-dark);
+}
+#footer{
+    text-align: center;
+    padding: 20px;
+}
+
+/* -------------------------------------------------------
+   NAVBAR (UPDATED)
+---------------------------------------------------------*/
+
+.top-nav {
+    width: 100%;
+    background: #ffffff;
+    padding: 18px 35px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-sizing: border-box;
+}
+
+/* Bigger, bolder brand */
+.top-nav .logo {
+    font-size: 32px;       /* increased */
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--primary);
+}
+
+/* MENU BUTTON STYLE */
+.top-nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+/* Normal menu items → converted to pill buttons */
+.top-nav .menu a,
+.top-nav .menu button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 20px;            /* pill shape */
+    background: #f0f4ff;            /* light background */
+    color: var(--text-dark);
+    border: 1px solid #d6ddff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+.top-nav .menu a:hover,
+.top-nav .menu button:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary-dark);
+}
+
+/* Login/Logout button */
+#logoutBtn,
+#navLogin {
+    background: #eaf0ff;
+}
+
+#logoutBtn:hover,
+#navLogin:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* Mobile layout fix */
+@media (max-width: 780px) {
+    .top-nav {
+        flex-direction: column;
+        gap: 12px;
+        padding-bottom: 20px;
+    }
+    .top-nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+/* -------------------------------------------------------
+   PAGE TITLES
+---------------------------------------------------------*/
+
+.page-title {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 40px;
+    color: var(--text-dark);
+}
+
+.page-sub {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: var(--text-light);
+}
+
+
+/* -------------------------------------------------------
+   MAIN CARD (HOME)
+---------------------------------------------------------*/
+
+.center-box {
+    width: 500px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: var(--card-shadow);
+}
+
+.input-field,
+.form-input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border-radius: var(--radius);
+    border: 1px solid #ccd;
+    background: var(--bg-light);
+    font-size: 16px;
+    outline: none;
+}
+
+.input-field:focus,
+.form-input:focus {
+    border-color: var(--primary);
+}
+
+.primary-button,
+.form-button,
+.btn.primary {
+    width: 100%;
+    padding: 14px;
+    background: var(--primary);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.primary-button:hover,
+.form-button:hover,
+.btn.primary:hover {
+    background: var(--primary-dark);
+}
+
+
+/* -------------------------------------------------------
+   RESULT BOX
+---------------------------------------------------------*/
+
+.result-box {
+    background: white;
+    border-left: 6px solid var(--primary);
+    padding: 18px;
+    margin-top: 25px;
+    border-radius: var(--radius);
+    box-shadow: var(--card-shadow);
+    font-size: 16px;
+    white-space: pre-line;
+}
+
+
+/* -------------------------------------------------------
+   AUTH FORMS
+---------------------------------------------------------*/
+
+.form-card {
+    width: 420px;
+    max-width: 95%;
+    margin: 40px auto;
+    background: white;
+    padding: 35px 28px;
+    border-radius: var(--radius);
+    box-shadow: var(--card-shadow);
+}
+
+.form-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-sub {
+    color: var(--text-light);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    margin: 10px 0 5px;
+    font-size: 15px;
+}
+
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-footer a {
+    color: var(--primary);
+}
+
+.msg {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+
+
+/* -------------------------------------------------------
+   HISTORY PAGE
+---------------------------------------------------------*/
+
+.history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.history-list li {
+    background: white;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: var(--radius);
+    box-shadow: var(--card-shadow);
+}
+
+.history-list li strong {
+    color: var(--primary-dark);
+}
+
+
+/* -------------------------------------------------------
+   CHATBOT
+---------------------------------------------------------*/
+
+.chat-main {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+}
+
+.chat-panel,
+.side-panel {
+    background: white;
+    padding: 20px;
+    border-radius: var(--radius);
+    box-shadow: var(--card-shadow);
+}
+
+.chat-panel {
+    flex: 1;
+}
+
+.side-panel {
+    width: 300px;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    padding: 12px;
+    background: var(--bg-light);
+    border-radius: var(--radius);
+    margin-bottom: 15px;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+}
+
+
+
+/* -------------------------------------------------------
+   RESPONSIVE FIXES
+---------------------------------------------------------*/
+
+@media (max-width: 600px) {
+
+    /* FIX: keep login/logout inside window */
+    .top-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .top-nav .menu {
+        flex-wrap: wrap;       /* allow wrapping on small screens */
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+}

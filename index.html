@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowYourMeds – Smart Drug Interaction Advisor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="home">
+
+<header class="top-nav">
+    <div class="logo">💊 KnowYourMeds</div>
+
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="profile.html">Profile</a>
+
+        <a href="login.html" id="navLogin" class="nav-item">Login</a>
+
+       
+        <button id="logoutBtn" class="nav-item logout-btn" style="display:none;">Logout</button>
+    </nav>
+</header>
+
+<h1 class="page-title">Check Drug Interactions</h1>
+<p class="page-sub">Enter two medications to see risk level and easy explanation.</p>
+
+<div class="center-box">
+
+    <input type="text" id="drug1" class="input-field" placeholder="First medicine">
+    <input type="text" id="drug2" class="input-field" placeholder="Second medicine">
+
+    <button id="checkBtn" type="button" class="primary-button">Check</button>
+
+    <div id="result" class="result-box" style="display:none;"></div>
+
+</div>
+<p id="footer" >&copy;2025 KnowYourMeds. All rights reserved.</p>
+
+<script src="script.js"></script>
+</body>
+</html>

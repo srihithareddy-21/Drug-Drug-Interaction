@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chat • KnowYourMeds</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="chat">
+  <header class="topbar glass">
+    <div class="brand">
+      <div class="logo">💊</div>
+      <div class="brand-text">
+        <div class="title">KnowYourMeds</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="chatbot.html" class="nav-link active">Check</a>
+      <a href="profile.html" class="nav-link">Profile</a>
+      <button id="nav-auth-btn" class="btn small primary">Log in</button>
+    </nav>
+  </header>
+
+  <main class="chat-main">
+    <section class="chat-panel glass">
+      <div class="chat-header">
+        <div class="header-left">
+          <div class="h-title">💬 KnowYourMeds Assistant</div>
+          <div id="user-tag" class="muted small"></div>
+        </div>
+        <div class="h-right small muted">Elder-friendly explanations</div>
+      </div>
+
+      <div id="chat-box" class="chat-box" aria-live="polite"></div>
+
+      <div class="chat-input">
+        <input id="user-input" placeholder="Example: Digoxin + Furosemide" />
+        <button id="send-btn" type="button" class="btn primary">Send</button>
+      </div>
+    </section>
+
+    <aside class="side-panel glass">
+      <h3>Recent checks</h3>
+      <ul id="history-list" class="history-list"></ul>
+      <hr/>
+      <h4>Quick tips</h4>
+      <ul>
+        <li>Always tell your doctor about all medicines.</li>
+        <li>If in doubt, stop and call a healthcare professional.</li>
+      </ul>
+    </aside>
+  </main>
+  <p id="footer" >&copy;2025 KnowYourMeds. All rights reserved.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
